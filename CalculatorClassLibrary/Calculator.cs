@@ -19,9 +19,20 @@ namespace CalculatorClassLibrary
         /// <param name="x">First number</param>
         /// <param name="y">Second number</param>
         /// <returns>Sum of first and second number</returns>
-        public double CalculateAddition(double x, double y)
+        public static double CalculateAddition(double x, double y)
         {
             return x + y;
-        } 
+        }
+
+        /// <summary>
+        /// Calculate subtraction
+        /// </summary>
+        /// <param name="x">First number</param>
+        /// <param name="y">Second number</param>
+        /// <returns>first number subtraction with second number</returns>
+        public static double CalculateSubtraction(double x, double y)
+        {
+            return x - y;
+        }
     }
 }
